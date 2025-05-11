@@ -16,6 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "package": "com.dorcasndungu.inventory",
+      "versionCode": 1,
       "edgeToEdgeEnabled": true
     },
     "web": {
@@ -33,10 +35,18 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "384f497d-0260-4be3-934c-bef632b7c565"
+      }
+    },
+    "owner": "dorcasndungu"
   }
 }
